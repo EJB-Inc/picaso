@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#company-name {
+  z-index: 5;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(198, 198, 198);
+}
+
+.all-shapes {
+    padding-bottom: ;
+}
+
+form {
+   
+    bottom: 1000;
+   
+
+}
+
+form > p {
+    font-style: italic;
+    color: red;
+    border: 2px black solid;
+    background-color: black;
+    margin-right: auto;
+    position: absolute;
+   
+    
+}
+
+#ground {
+  height: 12%;
+  width: 100%vw;
+  background-color: rgb(57, 151, 31);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
+  z-index: 1;
+}
+
+#cut-off {
+  height: 3px;
+  width: 100%vw;
+  background-color: rgb(26, 26, 26);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: ;
+  z-index: 5;
+}
+
+#sky {
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  top: -550;
+  height: 500px;
+  width: 100%;
+  background-color: rgb(2, 93, 132);
+}
+
+#house {
+  z-index: 2;
+  position: ;
+  margin-left: auto;
+  margin-right: auto;
+  top: -750;
+  height: 180;
+  width: 180;
+  background-color: rgb(157, 0, 255);
+}
+
+#roof {
+  z-index: 3;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: -1000;
+  width: 0;
+  height: 0;
+  border-right: 130px solid transparent;
+  border-left: 130px solid transparent;
+  border-bottom: 100px solid rgb(100, 70, 70);
+}
+
+#window {
+  z-index: 3;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: -960;
+  right: 50px;
+  height: 30px;
+  width: 20px;
+  background-color: rgb(0, 238, 255);
+}
+
+#window-2 {
+  z-index: 3;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: -990;
+  left: 50px;
+  height: 30px;
+  width: 20px;
+  background-color: rgb(0, 238, 255);
+}
+
+#door {
+  z-index: 4;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: -950;
+  height: 40px;
+  width: 20px;
+  background-color: rgb(100, 70, 70);
+}
+
+#moon {
+  z-index: 4;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: -1350;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background-color: rgb(222, 220, 214);
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
